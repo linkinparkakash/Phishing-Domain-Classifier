@@ -28,7 +28,7 @@ def predict():
         if preds.shape[1] == 111:
             output = pickled_model.predict(preds)
             frame = pd.DataFrame(output)
-            frame.to_csv('Final_Predictions.csv')
+            frame.to_csv('C:\\Program Files\\Final_Predictions.csv')
             return render_template('result.html',prediction=output)
         else:
             return render_template('result1.html')

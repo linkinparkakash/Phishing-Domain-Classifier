@@ -25,7 +25,7 @@ def predict():
     if request.method=='POST': 
         data = request.form['message']  ## Requesting the path entered in the text field.
         preds = pd.read_csv(data) ## Loading it in the pandas
-        if preds.shape[1] == 111:
+        if preds.shape[1] == 111 and preds.shape[0] == 88647:
             output = pickled_model.predict(preds)
             frame = pd.DataFrame(output)
             frame.to_csv('C:\\Program Files\\Final_Predictions.csv')

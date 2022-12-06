@@ -1,0 +1,5 @@
+os
+Flask
+sci-kit learn
+pickle
+pandas

@@ -16,3 +16,5 @@ sklearn==0.0.post1
 threadpoolctl==3.1.0
 Werkzeug==2.2.2
 zipp==3.11.0
+Flask-Cors==3.0.10
+gunicorn==20.0.4

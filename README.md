@@ -29,3 +29,5 @@ If there are any null values, they will be dropped.
 
 Random Forest Classifier was used out of several classifier algorithms, giving accuracy around 96.63%
 
+# Deployment Link in AWS
+http://phishy-env.eba-3cvpmppf.ap-northeast-1.elasticbeanstalk.com/
